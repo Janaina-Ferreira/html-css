@@ -10,27 +10,42 @@
         background-image: url(./imagem/espaco.jpg);
       }
 
-      div{
-        
-       text-align: center;
-        position: relative;
-        
-      }  
+      #container{
+       background-size: 100% 100%;
+       position: relative;
 
-      img{
-      width: 300px;
-    margin-top: 10%;
-     
+       height: 96vh;
+       padding: 10px;
+      }
+
+      #conteudo{
+        background-size: 100% 100%;
+        position: absolute;
+
+        height: 200px;
+        width: 400px;
+
+        left: 50%;
+        top: 50%;
+
+        transform: translate(-50%, -50%);
+      }
       
 
+      img{
+        width: 250px;
       }
     </style>
+
+   
    
       
 </head>
 <body>
-     <div class="as">
-      <img src="./imagem/astronauta.png" alt="">
+    <div id="container">
+        <div id="conteudo">
+            <img src="./imagem/astronauta.png" alt="">
+        </div>
     </div>
 </body>
 </html>
