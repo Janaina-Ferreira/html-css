@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinamicas</title>
+
+    <link rel="shortcut icon" href="./imagens/ico-html.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+    <p>Tente abrir esse site em varios dispositivis diferentes ou simplismente aumente e diminua  o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/pequena.jpg" type="image/jpg">
+        <source media="(max-width: 1050px )" srcset="imagens/media.jpg" type="image/jpg">
+        <img src="./imagens/grande.jpg" alt="imagem flexivel">
+    </picture>
+    <h1>Reproduzindo audio</h1>
+    <p>Vamos reproduzir audios em HTML5</p>
+    <audio preload="auto" autoplay controls >
+      <source src="./midia/1968 - TrackTribe.mp3" type="audio/mpeg"> 
+    </audio>
+</body>
+</html>

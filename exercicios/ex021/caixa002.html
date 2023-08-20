@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+
+    <style>
+
+        body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: aliceblue;
+            margin: 0px;
+            text-align: center;
+        }
+
+        header{
+            background-color: aqua;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: rgb(16, 104, 182);
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.829);
+
+        }
+
+        nav > a{
+              text-decoration: none;
+              color: rgb(241, 241, 241);
+              font-weight: bolder;
+              margin-right: 50px;
+             
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+           
+        }
+
+        main {
+            background-color: rgb(15, 117, 117);
+            padding: 10px;
+            margin: 10px;
+           
+        }
+
+        article{
+            background-color: rgb(185, 105, 105);
+            padding: 5px;
+            box-shadow: 5px 9px 7px 7px rgba(0, 0, 0, 0.829);
+            border-radius: 10px ;
+        
+        }
+
+
+        article > aside{
+            background-color: rgb(70, 60, 80);
+        }
+
+        footer > p{
+            background-color: rgb(16, 104, 182);
+            color: beige;
+            padding: 2px;
+            margin: 0px;
+        }
+         
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: rgb(223, 31, 31);
+           border-radius: 50%;
+        }
+    </style>
+
+</head>
+<body>
+
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+
+    </header>
+
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, impedit fugit amet nisi enim quibusdam alias nulla excepturi. Magnam tempore earum atque iusto tenetur temporibus ipsam asperiores repudiandae fugiat amet! Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur adipisci odit possimus ipsam? Officia eveniet, quas blanditiis tempore veritatis facilis, delectus vitae minus quod earum ab alias voluptatum quisquam magni! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit nam blanditiis labore, consequuntur autem aspernatur adipisci minus, similique commodi minima, eaque nemo dolorem? Labore minus, minima commodi atque veniam soluta.</p>
+               
+                <aside>
+                    <p>Artigo escrito por kira</p>
+                </aside>
+            </article>
+
+           
+        </section>
+
+    </main>
+
+    <footer>
+       <p>Desenvolvido por Janaina</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

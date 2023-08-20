@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        a{
+            color: rgb(204, 23, 98);
+            text-decoration: none;
+            font-weight: bolder;
+        }
+
+        a:visited {
+            color: rgb(230, 216, 31);
+        }
+
+        a:hover{
+            text-decoration: underline;
+        }
+
+        a:active{
+            color: black;
+        }
+
+        .especial::before{
+            content: "->";
+        }
+
+       .especial::after{
+        content: "<-";
+        }
+
+   </style>
+
+</head>
+
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li> <a href="https://youtu.be/rUTKomc2gG8"> Aula 01</a></li>
+        <li><a href="https://youtu.be/FdePtO5JSd0" class="especial">Aula 02</a></li>
+        <li><a href="https://youtu.be/OmmJBfcMJA8">Aula 03</a> </li>
+    </ul>
+
+    
+</body>
+</html>
