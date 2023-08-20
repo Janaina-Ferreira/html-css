@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="./pacote-projeto-d010/imagens/favicon.ico" type="image/x-icon">
+
+    <title>Desafio 010</title>
+
+    <style>
+        @font-face{
+            font-family: 'idroid';
+            src: url('idroid') format('opentype'), url('./pacote-projeto-d010/fontes/idroid.otf')
+        }
+           
+        
+        body{
+            font-size: 90%;
+           
+            text-align: center;
+            background-color: rgba(233, 233, 59, 0.699);
+            
+        }
+      
+        header{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-image: linear-gradient(to bottom, rgb(51, 204, 51), rgb(5, 129, 5));
+            color: white;
+            padding: 10px;
+            
+        }
+         
+        nav{
+            text-align: left;
+            background-color: green;
+            padding: 10px;
+            
+        }
+
+        nav>a{
+            text-decoration: none;
+            margin: 10px;
+           
+            color: white;
+
+        }
+
+        main{
+            background-color: white;
+            padding: 15px;
+            margin: 0px 15px;
+        }
+     
+        article>h1{
+            font-family: 'idroid', Courier, monospace;
+            text-align: justify;
+            color: green;
+        }
+
+        span{
+            color: green;
+        }
+     
+        h2{
+            font-family: 'idroid', Courier, monospace;
+            text-align: justify;
+           font-size: 100%;
+           background-image: linear-gradient(to right, rgba(72, 168, 72, 0.74), rgb(111, 199, 111), white);
+           color: green;
+           padding: 3px;
+           
+        }
+
+        p{
+            text-indent: 30px;
+            text-align: justify;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div{
+            background-color: green;
+            padding: 5px;
+            margin: 0px 15px;
+        }
+
+        div.lista{
+
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 0px 15px;
+            border-radius: 0px 0px 10px 10px;
+           
+        }
+
+        h3{
+            text-align: justify;
+            background-color: green;
+            color: white;
+           padding: 10px;
+           margin: 0px 15px;
+           border-radius: 10px 10px 0px 0px;
+           
+        }
+
+        div.expr{
+           
+            background-color: rgba(103, 223, 103, 0.712);
+            padding: 10px;
+            margin: 0px 15px;
+            border-radius: 0px 0px 10px 10px;
+        }
+
+        ul{
+            
+            list-style-type: none;
+             display: inline;
+             text-align: justify; 
+             padding: 5px;
+             margin: 10px;
+
+        }
+         
+        mark{
+            background-color: rgba(0, 128, 0, 0.76);
+            padding: 2px;
+        }
+      
+       .inicio{
+        text-align: center;
+     
+       }
+
+       .fim{
+        text-align: center;
+        color: white;
+        background-color: green;
+        padding: 10px;
+        margin: 20px 15px;
+       }
+         
+    </style>
+
+   
+</head>
+<body>
+    <header>
+        <h1> CURIOSIDADES DE TECNOLOGIA</h1>
+        <p class="inicio">Tudo aquilo que você sempre quis saber sobre o mundo Tec, em um único lugar</p>
+    </header>  
+        <nav>
+         <a href="#">Home</a>
+         <a href="#">Noticias</a>
+         <a href="#">Curiosidade</a>
+         <a href="#">Fale conosco</a>
+        </nav>
+
+   
+    <main>
+     <section id="assunto">
+    <article>
+    <h1>História do Mascote do Android</h1>  
+
+    <p>Provavelmente você sabe que o sistema operacional <span>Android</span>, mantido pelo <span>Google</span> é um dos mais utilizados para dispositivos móveis em todo o mundo. Mas tavez você não saiba que o seu simpático mascote tem um nome e uma história muito curiosa? Pois acompanhe esse artigo para aprender muita coisa sobre esse robozinho.</p>
+
+    <h2>A primeira versão</h2>
+    
+    <p>A primeira tentativa de criar um mascote surgiu em 2007 e veio de um desenvolvedor chamado <mark>Dan Morrill</mark>. Ele conta que abriu o  <mark>Inkscape</mark> (software livre para vetorização de imagens) e criou sua própria versão de robô. O objetivo era apenas personificar o sistema apenas para a a sua equipe, não existia nenhuma solicitação da empresa para a criação de um mascote.</p>
+
+    <picture>
+        <source class="foto" media="(max-width: 1050px)" srcset="./pacote-projeto-d010/imagens/dan-droids-pq.png" type="image/png" >
+       
+        <img src="./pacote-projeto-d010/imagens/dan-droids.png" alt="android">
+    </picture>
+   
+
+    <p>Essa primeira versão bizarra até foi batizada em homenagem ao seu criador: seriam os Dandroids.</p>
+
+    <h2 class="tres">Surge um novo mascote</h2>
+
+    <p>A ideia de ter um mascote foi amadurecendo e a missão foi passada para uma profissional da área. A ilustradora Russa <mark>Irina Blok</mark>, também funcionária do Google, ficou com a missão de representar o pequeno robô de uma maneira mais agradável.</p>
+
+
+    <picture>
+       
+        <source media="(max-width: 1050px)" srcset="./pacote-projeto-d010/imagens/irina-blok-pq.jpg" type="image/jpg">
+       </div>
+        <img src="./pacote-projeto-d010/imagens/irina-blok.jpg" alt="imagem irina">
+    </picture>
+
+
+    <p>A ideia principal da Irina era representar tudo graficamente com poucos traços e de forma mais chapada. O desenho também deveria gerar identificação rápida com quem o olha. Surgiu então o Bugdroid, o novo mascote do Android.</p>
+
+    <img src="./pacote-projeto-d010/imagens/bugdroid.png" alt="android">
+
+    <p>A principal inspiração para os traços do novo Bugdroid veio daqueles bonequinhos que ilustram portas de banheiro para indicar o gênero de cada porta. Conta a lenda que a artista estava criando em sua mesa no escritório do Google e olhou para o lado dos banheiros e a identificação foi imediata: simples, limpo, objetivo.</p>
+</article>
+</section>
+</main>
+
+  <div class="video">
+   <picture>
+    <iframe width="90%" height="440px" src="https://www.youtube.com/embed/l2UDgpLz20M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+ </picture>
+  </div>
+
+ 
+
+   
+<div class="lista">
+ <h3> Quer aprender mais? </h2>
+<div class="expr">
+  <p>Outro assunto curioso em relação ao Android é que cada versão sempre foi nomeada em homenagem a um doce, em ordem alfabética a partir da versão 1.5 até a 9.0.</p> 
+
+  <ul >
+    <li>
+        <li>&#10003 1.5 - Cupcake </li>    
+        <li>&#10003 1.6 - Donut</li>      
+        <li> &#10003 3.0 - Eclair  </li>     
+        <li> &#10003 2.2 - Froyo  </li> 
+        <li>   &#10003 2.3 - Gingerbread</li>  
+        <li>  &#10003  3.0 - Honeyco </li>
+       <li>&#10003  4.0 - Ice Cream Sandwich</li>  
+       <li>&#10003 4.1 - Jelly Bean</li>   
+       <li>  &#10003 4.4 - KitKat </li> 
+       <li>  &#10003 5.0 - Lolipop </li> 
+       <li> &#10003 6.0 - Marshmallow </li> 
+       <li>   &#10003 7.0 - Nougat </li> 
+       <li>  &#10003 8.0 - Oreo</li> 
+       <li>  &#10003 9.0 - Pie</li>
+     </li>
+</ul>
+
+
+
+      
+     <p>Infelizmente, o <span>Android Q</span> não existiu, pois o Google resolveu pôr fim a essa divertida prática e começou a usar numerações, o que deu origem ao <span>Android 10</span>.</p>
+
+     <p>Acesse aqui o site <span>Android History</span> para conhecer a sequência das versões "adocicadas" e o que cada uma trouxe para o sistema Android.</p>
+    </div>
+
+
+
+    <p>Então é isso! Espero que você tenha gostado do nosso artigo com essa curiosidade sobre o sistema Android e seu simpático mascote.</p>
+</div>
+
+    <p class="fim">Site criado por Gustavo Guanabara para o CursoemVideo.</p>
+</body>
+</html>
