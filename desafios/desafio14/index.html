@@ -8,15 +8,33 @@
         table{
             border-collapse: collapse;
                width: 500px;
+
               
         }
-
+       th{
+        background-color: rgb(87, 85, 87);
+        color: rgb(255, 255, 255);
+       }
     td, th{
         border: 1px solid black;
+        padding: 5px;
     }
 
-    .num{
+    .esq{
+      text-align: left;
+      padding: 5px;
       
+    }
+    .ex{
+      background-color: white;
+      color: black;
+    }
+    .cin{
+         background-color: rgb(87, 85, 87);
+         color: white;
+    }
+    .no{
+      text-align: center;
     }
     </style>
 </head>
@@ -24,62 +42,81 @@
     <table>
         <thead>
             <tr>
-              <th scope="col">Área</th>
-              <th scope="col">Disciplina</th>
-               <th colspan="2" scope="colgroup" class="num">Notas  </th>
+              <th rowspan="2" scope="col">Área</th>
+              <th rowspan="2"scope="col">Disciplina</th>
+               <th colspan="2"  scope="colgroup" class="num">Notas  </th>
                
-               <th scope="col">Média</th>
-                
+               <th rowspan="2" scope="col">Média</th>
+                <tr>
+                  <th scope="col" >Nota 1</th>
+                  <th scope="col">Nota 2</th>
+                </tr>
             </tr>
           
         </thead>
         <tbody>
             <tr>
-                <th rowspan="4" scope="rowgroup">Exatas </th>
+                <th rowspan="4" scope="rowgroup" class="ex">Exatas </th>
                   <td>Matemática</td>
                
-                  <td>0.0</td>
-                  <td>0.0</td>
-                  <td>0.0</td>
+                  <td class="no" >0.0</td>
+                  
+                  <td class="no" >0.0</td>
+                  
+                  <td class="no" >0.0</td>
             </tr>
             <tr>
                
                   <td>Física</td>
-                  <td>0.0</td>
-                  <td>0.0</td>
-                  <td>0.0</td>
+                  <td class="no" >0.0</td>
+                  
+                  <td class="no" >0.0</td>
+                  
+                  <td class="no" >0.0</td>
             </tr>
             <tr>
                
                 <td>Química</td>
-                <td>0.0</td>
-                <td>0.0</td>
-                <td>0.0</td>
+                <td class="no" >0.0</td>
+                  
+                <td class="no" >0.0</td>
+                
+                <td class="no" >0.0</td>
           </tr>
           <tr>
                
             <td>Biologia</td>
-            <td>0.0</td>
-            <td>0.0</td>
-            <td>0.0</td>
+            <td class="no" >0.0</td>
+                  
+            <td class="no" >0.0</td>
+            
+            <td class="no" >0.0</td>
       </tr>
       <tr>
-        <th colspan="4" scope="row">Média de exatas</th>
-        <td>0.0</td>
+        <th colspan="4" scope="row" class="esq">Média de exatas</th>
+        <td class="cin no">0.0</td>
       </tr>
       <tr>
-        <th rowspan="2" scope="rowgroup">Humanas</th>
+        <th rowspan="2" scope="rowgroup" class="ex">Humanas</th>
         <td>História</td>
-        <td>0.0</td>
-        <td>0.0</td>
-        <td>0.0</td>
+        <td class="no" >0.0</td>
+                  
+        <td class="no" >0.0</td>
+        
+        <td class="no" >0.0</td>
       </tr>
       <tr>
         <td>Geografia</td>
-        <td>0.0</td>
-        <td>0.0</td>
-        <td>0.0</td>
+        <td class="no" >0.0</td>
+                  
+        <td class="no" >0.0</td>
+        
+        <td class="no" >0.0</td>
      
+      </tr>
+      <tr>
+        <th colspan="4" scope="row" class="esq" >Média de humanas </th>
+        <td class="cin no">0.0</td>
       </tr>
         </tbody>
     </table>
