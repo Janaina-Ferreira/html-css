@@ -14,18 +14,41 @@
             <select name="estado" id="iest">
      
                 <option>---Escolha---</option>
-                <optgroup>
-                    <label for=""></label>
+                <optgroup label="Região Sudeste">
 
+                   <option value="RJ">Rio de Janeiro</option>
+                   <option value="SP">São Paulo</option>
+                   <option value="MG">Minas Gerais</option>
+                </optgroup>
+                 <optgroup label="Região Nordeste">
+
+                   <option value="PB">Paraíba</option>
+                   <option value="MA">Maranhão</option>
+                   <option value="PE">Pernambuco</option>
                 </optgroup>
             </select>
             
         </p>
 
+        <p>
+            <label for="ipro">Profissão</label>
+            <input type="text" name="pro" id="ipro" list="lstpro">
+            <datalist id="lstpro">
+                <option>Administrador</option>
+                <option>Desenvolvedor</option>
+                <option>Pintor</option>
+            </datalist>
+        </p>
+
+        <p>
+            <label for="imsg">Mensagem</label><br>
+            <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+        </p>
 
         <p>
             <input type="submit" value="Enviar">
             <input type="reset" value="Limpar">
+       
         </p>
     </form>
 </body>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Teste de Formulário</h1>
+    <form action="" method="get" autocomplete="on">
+
+        <p>
+            <label for="iano">Em que ano você naceu?</label>
+            <input type="number" name="ano" id="iano" min="1900" max="2023" oninput="calIdade()">
+        </p>
+
+        <p>
+            <label for="iida">Sua idade é:</label>
+            <output id="iida">0</output>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+
+    <script>
+        function calIdade(){
+            let atual = new Date().getFullYear()
+            iida.innerHTML = Number(atual) - Number(iano.value)
+        }
+    </script>
+</body>
+</html>
