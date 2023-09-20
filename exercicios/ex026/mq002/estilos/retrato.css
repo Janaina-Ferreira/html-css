@@ -3,4 +3,6 @@
 /*aparelho em pé modo portrait*/
 
 body{
-   background: url(./);
+   background: url(../../imagens/cev-portrait.jpg);
+   background-position: left center;
+}
